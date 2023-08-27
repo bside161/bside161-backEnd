@@ -12,10 +12,10 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
         AppProperties.class
 })
 
-public class OauthLoginApplication {
+public class ConnectApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(OauthLoginApplication.class, args);
+        SpringApplication.run(ConnectApplication.class, args);
     }
 
 }
